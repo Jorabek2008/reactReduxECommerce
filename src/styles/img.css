@@ -1,0 +1,14 @@
+.BgImg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/emailBgImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.btnDisabled:disabled,
+.btnDisabled[disabled]{
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #a19999;
+}
