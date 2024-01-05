@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useState } from "react"
 import Home from "./page/Home"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
 import About from './page/About';
 import Contact from './page/Contact';
 import Products from "./page/Products";
