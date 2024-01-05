@@ -115,12 +115,12 @@ function Navbar() {
             <ul className="lg:hidden flex flex-col items-center justify-center h-full ">
               {navLinks.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className="font-montserrat leading-normal text-lg text-slate-gray"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
