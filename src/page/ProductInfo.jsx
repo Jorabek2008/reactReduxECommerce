@@ -38,11 +38,11 @@ function ProductInfo() {
           {data.map(item => (
             <div key={item.id}>
               {item.id == id ? (
-                <div className='flex items-center gap-8 container mx-auto justify-around mt-10'>
-                  <img src={item.url} alt={item.name} width={400} height={240} />
-                  <div>
-                    <h1 className='text-[40px] w-[500px]'>{item.name}</h1>
-                    <h1 className='text-[16px] w-[500px] mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eos suscipit sapiente assumenda.</h1>
+                <div className='block md:flex items-center gap-8 container mx-auto justify-around mt-10'>
+                  <img src={item.url} alt={item.name} className="mx-auto w-[300px] sm:w-[400px]" />
+                  <div className="sm:w-[400px] w-[300px] md:w-[600px] mx-auto">
+                    <h1 className='text-[30px] md:text-[35px] sm:text-[30px] w-[300px] sm:w-[400px] mt-8 md:mt-0'>{item.name}</h1>
+                    <h1 className='text-[16px] w-[300px] mt-4 sm:w-[400px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eos suscipit sapiente assumenda.</h1>
                     <div className="flex items-center gap-4">
                       <h1 className='text-[25px] text-[red] mt-4'>${item.price}</h1>
                       <h1 className='text-[20px] mt-4 line-through text-[#999]'>${item.regPrice}</h1>

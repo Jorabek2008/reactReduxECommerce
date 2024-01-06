@@ -70,7 +70,7 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="flex items-center gap-4 text-lg leading-normal font-medium font-montserrat wide:mr-24 max-lg:ml-[-200px]">
+          <div className="flex items-center gap-4 text-lg leading-normal font-medium font-montserrat wide:mr-24 ">
             <Link to="/cart">
               <div className="flex items-center cursor-pointer">
                 <div className="block w-[20px] h-[20px] bg-[#38CB89] rounded-[50%] text-white">

@@ -20,9 +20,6 @@ function App() {
  
   const {loading} = useSelector(state => state.productReducer)
 
-  module.exports = (req, res) => {
-    res.status(404).json({ message: 'Not Founddsvdsvdvs' });
-  };
 
   return (
     <>

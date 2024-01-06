@@ -20,12 +20,12 @@ function Couch() {
             </div>
         </div>
 
-        <div className="container mx-auto BgImg mt-10 text-center text-white pt-20">
+        <div className="container mx-auto BgImg mt-10 text-center text-white pt-10 md:pt-20">
             <h1 className='text-[40px] font-[500] text-center'>Join our newsletter</h1>
             <p>Sign up for deals , new products and promotions</p>
-            <div className="flex items-center gap-2 w-[500px] mx-auto mt-8">
-                <input type="text" placeholder='Email address' className='w-[350px] rounded-[8px] border-none py-[10px] pr-[30px] pl-[10px] text-black' />
-                <button className='py-[10px] px-[30px] bg-white text-black rounded-[8px]'>Sign In</button>
+            <div className="block md:flex items-center gap-2 w-[360px] md:w-[500px] mx-auto mt-8">
+                <input type="text" placeholder='Email address' className='w-[300px] md:w-[350px] mx-auto block rounded-[8px] border-none py-[10px] pr-[10px] pl-[10px] text-black' />
+                <button className='py-[10px] mx-auto mt-4 md:mt-0 px-[30px] bg-white text-black rounded-[8px]'>Sign In</button>
             </div>
         </div>
     </>
