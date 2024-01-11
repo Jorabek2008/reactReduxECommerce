@@ -24,7 +24,7 @@ function Register() {
       location.replace('/')
     }, 2000)
   })
-  .catch((e) => toast.error(e.error))
+  .catch((e) => toast.error("User you have an Email or password error"))
  }
   return (
     <div className="flex flex-wrap items-center justify-around mt-20 mx-auto p-20">

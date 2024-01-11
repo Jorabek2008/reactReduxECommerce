@@ -28,7 +28,7 @@ function Login() {
         location.replace('/')
       }, 2000)
     })
-    .catch((e) => toast.error(e.error))
+    .catch((e) => toast.error("Email or password is not find"))
   }
   return (
     <> 
